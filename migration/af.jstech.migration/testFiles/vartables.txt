@@ -1,0 +1,26 @@
+
+
+
+VARTABLE NEO 
+  MEMBERS
+  NEODAT "/app/NEO/data"
+  NEODHD "/app/NEO/prod/bin/scripts/dossierhotelier/double"
+  NEODHN "/app/NEO/prod/bin/scripts/dossierhotelier/normaux"
+  NEODHS "/app/NEO/prod/bin/scripts/dossierhotelier/secours"
+END
+
+
+VARTABLE VULCAIN 
+  MEMBERS
+  VLCBASE "ACPROD"
+  VLCFS "VLC_PROD"
+  VLCHRORA "HORIZON_PRD"
+  VLCJIMS "lh-jims-st.12660"
+  VLCJPATH "/app/VLC_PROD/INTERFACES/JIMS/VLC-JIMS"
+  VLCLIV "/app/VLC_PROD/LIVRAISON"
+  VLCLIVN "/home/vlc_ln"
+  VLCPATH "/app/VLC_PROD/INTERFACES/VLC"
+  VLCUSR "vlc_prod"
+END
+
+

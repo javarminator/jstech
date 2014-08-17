@@ -1,0 +1,29 @@
+!!!!!!!!!!
+
+
+TOUTES LES CHAINES DECLENCHENT DES JOBS DANS D'AUTRES CHAINES (MEME APPLI OU AUTRES APPLI)
+AUCUNE CHAINE N'EST CENTRALISE 
+
+
+!!!!!!!!!!!!!!!
+
+SCRIPTNAME et DOCOMMAND (scriptname, on dirait que c'est une commande shell aussi)
+
+OPENS dans un Job et OPENS dans une chaine 
+
+Fichier global options (cf.Doc.p.155)
+
+
+Liste des cas particuliers (qui ne sont pas si particuliers que ça) :
+
+plusieurs follows dans un jobstatement 
+
+une chaine qui lance un job qui appartient à une autre appli ( distributed jobChain ??)
+
+jobs en // (comment les detecter peut etre abscence de contraintes temporelles et/ou follows 
+				) 			
+follows d'un job qui appartient à une autre appli  (EVENT HANDLER ? ) 
+
+
+
+

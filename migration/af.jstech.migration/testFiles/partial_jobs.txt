@@ -1,0 +1,15 @@
+$JOBS
+ADAM#ADD_D_001IMPORTDELAYCODEFILE
+ SCRIPTNAME "/app/ADAM/prod/bin/scripts/startBatchImportDelayCodesFile.sh "
+ STREAMLOGON adam
+ DESCRIPTION "Added by composer for job stream: ADAM#ADD_D001IMPORT."
+ TASKTYPE OTHER
+ RECOVERY STOP
+
+
+ADAM#UPS_JRMSTDL1
+ DOCOMMAND "rmstdlist"
+ STREAMLOGON tws-adam
+ DESCRIPTION "Nettoyage repertoire stdlist"
+ TASKTYPE UNIX
+ RECOVERY RERUN

@@ -1,5 +1,5 @@
 !!!!!!!!!!
-
+-Dlog4j.configuration=file:/home/fferchic/workspace_antlr/af.jstech.migration/log4j.properties
 
 TOUTES LES CHAINES DECLENCHENT DES JOBS DANS D'AUTRES CHAINES (MEME APPLI OU AUTRES APPLI)
 AUCUNE CHAINE N'EST CENTRALISE 
